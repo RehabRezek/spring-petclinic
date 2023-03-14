@@ -44,7 +44,7 @@ tasks.named('test') {
 }
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://172.16.3.104/:9000'
+        property 'sonar.host.url', 'http://172.16.3.104:9000'
         //property 'sonar.login', '******'
     }
 }
