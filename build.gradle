@@ -10,7 +10,7 @@ apply plugin: 'java'
 
 group = 'org.springframework.samples'
 version = '5.0.0'
-sourceCompatibility = '11'
+sourceCompatibility = '17'
 
 
 repositories {
