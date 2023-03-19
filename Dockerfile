@@ -2,7 +2,7 @@ FROM openjdk:11 as base
 WORKDIR /app
 COPY . . 
 RUN chmod +x ./mvnw
-RUN ./mvnw package
+RUN ./mvnw  install package -X
 
 FROM tomcat:9
 WORKDIR webapps
