@@ -6,5 +6,5 @@ RUN ./mvnw  install package -X
 
 FROM tomcat:9
 WORKDIR webapps
-//COPY --from=base /app/build/libs/3.0.0-petclinic-SNAPSHOT.war ./spring-petclinic
+#COPY --from=base /app/build/libs/3.0.0-petclinic-SNAPSHOT.war ./spring-petclinic
 
